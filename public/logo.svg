@@ -1,0 +1,28 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="gearGrad" x1="0" y1="0" x2="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo escuro -->
+  <rect width="240" height="240" rx="48" fill="#0F0F0F"/>
+
+  <!-- Engrenagem -->
+  <g transform="translate(120,120)">
+    <circle r="28" fill="#0F0F0F" stroke="url(#gearGrad)" stroke-width="14"/>
+    
+    <!-- Dentes da engrenagem -->
+    <g stroke="url(#gearGrad)" stroke-width="14">
+      <line x1="0" y1="-50" x2="0" y2="-70"/>
+      <line x1="0" y1="50"  x2="0" y2="70"/>
+      <line x1="-50" y1="0" x2="-70" y2="0"/>
+      <line x1="50"  y1="0" x2="70" y2="0"/>
+      <line x1="-35" y1="-35" x2="-50" y2="-50"/>
+      <line x1="35" y1="-35" x2="50" y2="-50"/>
+      <line x1="-35" y1="35"  x2="-50" y2="50"/>
+      <line x1="35" y1="35"  x2="50" y2="50"/>
+    </g>
+  </g>
+</svg>
