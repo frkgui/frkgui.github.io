@@ -1,8 +1,8 @@
 <template>
 
-  <header class="header-animated w-full shadow-lg py-6 px-0 fixed top-0 left-0 z-10 border-b border-blue-800/40">
+  <header class="header-animated w-full shadow-lg py-4 px-0 fixed top-0 left-0 z-10 border-b border-blue-800/40">
     <div class="flex flex-col items-center">
-      <h1 class="text-4xl font-extrabold text-white tracking-wide text-center drop-shadow-lg">{{ title }}</h1>
+      <h1 class="text-3xl md:text-4xl font-extrabold text-white tracking-wide text-center drop-shadow-lg">{{ title }}</h1>
     </div>
   </header>
 
